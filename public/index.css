@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-color: rgb(54, 57, 64) !important;
+    color: white;
+    height: 100%;
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: 50px;
+    border-radius: 20px; 
+}
+
+form.d-flex button {
+    background-color: rgb(88 101 242);
+    color: white;
+    outline: none;
+    border: none ;
+}
+
+form.d-flex button:hover {
+    background-color: rgb(64 78 237);
+}
+
+/* Main Body */
+.head {
+    padding-top: 260px;
+    color: white;
+    text-align: center;
+}
+
+.subtext {
+    padding-bottom: 330px;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.pt-10 {
+    padding-top: 10rem !important;
+}
+
+.pt-16 {
+    padding-top: 30rem !important;
+}
+
+.custom-1 h2 {
+    padding-top: 60px;
+}
+
+.custom-1 img {
+    height: 239px;
+    width: 510px;
+    float: right;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(44, 47, 51);
+    /*box-shadow: 0 4px, 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+.custom-1 p {
+    color: rgb(255, 255, 255, .55);
+    width: 40%;
+}
+
+.custom-2 img {
+    height: 239px;
+    width: 510px;
+    float: left;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(44, 47, 51);
+    /*box-shadow: 0 4px, 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+.custom-2 p {
+    float: right;
+    color: rgb(255, 255, 255, .55);
+    width: 40%;
+}
+
+.custom-2 h2 {
+    padding-top: 60px;
+    float: right;
+    width: 40%;
+}
+
+#main_body {
+    font-family: 'Poppins', sans-serif;
+}
+/* Media */
+
+@media screen and (max-width: 967px) {
+    .pt-10 {
+        padding: 5rem !important;
+    }
+
+    .pt-16 {
+        padding: 5rem !important;
+        padding-top: 30rem !important;
+    }
+
+    .custom-1 img {
+        float: none;
+        display:  block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 400%;
+        height: auto;
+    }
+
+    .custom-1 p {
+        text-align: center;
+        width: 100%;
+    }
+
+    .custom-1 h2 {
+        text-align: center;
+    }
+
+    .custom-2 img {
+        float: none;
+        display:  block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 400%;
+        height: auto;
+    }
+
+    .custom-2 p {
+        text-align: center;
+        width: 100%;
+    }
+
+    .custom-2 h2 {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}

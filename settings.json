@@ -1,0 +1,111 @@
+{
+    "website": {
+        "name": "Papera Bot",
+        "avatar": "https://cdn.discordapp.com/avatars/875869187652878387/e95bd4ded30727257abca01c6a8c43ed.webp?size=80",
+        "invite": "https://discord.gg/p7kEtASt"
+    },
+
+    "commands": {
+        "moderazione": [{
+            "name": "ban",
+            "category": "moderazione",
+            "description": "Banna i membri",
+            "permissions": ["BAN_MEMBERS"],
+            "aliases": ["NESSUN ALIAS"],
+            "usage": ["@user <motivo-opzionale>"]
+        }, {
+            "name": "kick",
+            "category": "moderazione",
+            "description": "Espelle i membri",
+            "permissions": ["KICK_MEMBERS"],
+            "aliases": ["NESSUN ALIAS"],
+            "usage": ["@user <motivo-opzionale>"]            
+        }, {
+            "name": "mute",
+            "category": "moderazione",
+            "description": "Muta i membri",
+            "permissions": ["KICK_MEMBERS"],
+            "aliases": ["muta", "bang"],
+            "usage": ["@user <motivo-opzionale>"]   
+        }, {
+            "name": "unmute",
+            "category": "moderazione",
+            "description": "Revoca i mute",
+            "permissions": ["KICK_MEMBERS"],
+            "aliases": ["smuta", "bang"],
+            "usage": ["@user <motivo-opzionale>"]
+        }, {
+            "name": "tempmute",
+            "category": "moderazione",
+            "description": "Muta temporaneamente i membri",
+            "permissions": ["KICK_MEMBERS"],
+            "aliases": ["tempmuta", "tempbang"],
+            "usage": ["@user <1s/1m/1h>"]
+        }, {
+            "name": "warn",
+            "category": "moderazione",
+            "description": "Warna i membri",
+            "permissions": ["KICK_MEMBERS"],
+            "aliases": ["NESSUN ALIAS"],
+            "usage": ["@user <motivo>"]
+        }, {
+            "name": "warns",
+            "category": "moderazione",
+            "description": "Mostra i warn dei membri",
+            "permissions": ["KICK_MEMBERS"],
+            "aliases": ["warnings"],
+            "usage": ["@user-opzionale"]
+        }, {
+            "name": "remove-warn",
+            "category": "moderazione",
+            "description": "Revoca warn specifici",
+            "permissions": ["KICK_MEMBERS"],
+            "aliases": ["rm-warn", "clear-warn"],
+            "usage": ["@user <1>"]
+        }, {
+            "name": "remove-all-warn",
+            "category": "moderazione",
+            "description": "Revoca tutti i warn",
+            "permissions": ["KICK_MEMBERS"],
+            "aliases": ["rm-all-warns", "raw", "clear-all-warns"],
+            "usage": ["@user"]
+        }, {
+            "name": "clear",
+            "category": "moderazione",
+            "description": "Elimina i messaggi",
+            "permissions": ["KICK_MEMBERS"],
+            "aliases": ["NESSUN ALIAS"],
+            "usage": ["<1>"]
+        }, {
+            "name": "lockdown",
+            "category": "moderazione",
+            "description": "Chiude il server",
+            "permissions": ["ADMINISTRATOR"],
+            "aliases": ["lock"],
+            "usage": [""]
+        }, {
+            "name": "unlockdown",
+            "category": "moderazione",
+            "description": "Apre il server",
+            "permissions": ["ADMINISTRATOR"],
+            "aliases": ["unlock"],
+            "usage": [""]
+        }],
+        "utilità": [{
+            "name": "help",
+            "category": "utilità",
+            "description": "Mostra liste di comandi",
+            "permissions": ["aiuto", "comandi"],
+            "aliases": ["NESSUN ALIAS"],
+            "usage": ["<categoria/comando>"]
+        }],
+        "giochi": [{
+            "name": "say",
+            "category": "utilità",
+            "description": "Crea messaggi",
+            "permissions": ["NESSUN PERMESSO"],
+            "aliases": ["NESSUN ALIAS"],
+            "usage": ["<messaggio>"]
+        }]
+    }
+}
